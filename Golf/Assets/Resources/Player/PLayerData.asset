@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e1350f61e245a99bf23c813cf4fe4d, type: 3}
+  m_Name: PLayerData
+  m_EditorClassIdentifier: 
+  Speed: 200
+  ReduceSpeedForTick: 5
+  ReduceSpeedAfterCollision: 0.8
+  RotationAngleX: 45
+  RotationAngleY: -90
+  Distance: 6
+  OffsetY: 0.35
+  ForwardScale: {x: 1.2, y: 1.2, z: 0.8}
+  OnHitColor: {r: 0.9811321, g: 0.3924528, b: 0.3924528, a: 1}
+  Duration: 0.07
+  DurationKoeficient: 0.2
+  ParticleCountKoeficient: 0.65
+  ParticlePosOffset: 0.25
+  SmokeParticleDuration: 1
+  Radius: 100
+  MinMovement: 1
